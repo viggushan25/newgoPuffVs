@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="goPuffBatch">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.goPuff.myorders.Verify_OrderList_on_myordersPage_and_CancelTheOrder"/>
+      <class name="com.goPuff.myorders.Verify_and_test_Cuisines_using_Paypal_Payment_option_Test"/>
+      <class name="com.goPuff.myorders.verify_cod_payment_option_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- goPuffBatch -->
